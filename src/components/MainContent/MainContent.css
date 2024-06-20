@@ -1,0 +1,74 @@
+.wrapper-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container-block {
+  margin: auto;
+  width: 595px;
+  height: 115px;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+  border-radius: 12px;
+  display: flex;
+}
+
+section h3 {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-btn {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.image-avatar {
+  width: 155px;
+  height: 115px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.btn-stars {
+  color: white;
+  width: 90px;
+  height: 24px;
+  background-color: rgb(245, 143, 19);
+  border-radius: 20px;
+  border: none;
+  margin-left: 15px;
+}
+
+.btn-delete {
+  background-color: rgb(227, 3, 3);
+  width: 95px;
+  height: 28px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-edit {
+  width: 70px;
+  height: 28px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(2, 2, 145);
+  margin-right: 50px;
+}
+
+.btn-edit:hover{
+  overflow: visible;
+  white-space: normal;
+  z-index: 2;
+}
